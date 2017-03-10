@@ -1,0 +1,89 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+* { 
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Monserat', 'Open Sans', sans-serif;
+}
+
+.board {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 20px 0;
+	color: #092840;
+
+}
+
+button {
+	font-size: 14px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.create-column {
+	background-color: #FFF;
+}
+
+.column-container {
+	max-width: 1000px; 
+	background-color: #D1CCBC;
+	margin:0 auto;
+}
+
+.column {
+	width: 30%;
+  	margin: 15px ;
+ 	float : left;
+  	padding: 10px;
+  	border: 1px solid #9EDAFF;
+  	min-height: 300px;
+}
+
+.column-title {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.btn-delete {
+	background-color: #FFF;
+	color: #FF423D;
+}
+
+.card .btn-delete {
+	float: right;
+}
+
+.add-card {
+	background-color: #FFF;
+	color: #6F697F;
+}
+
+.card {
+	background-color: #BEBFB4;
+	margin-top: 10px;
+	min-height: 50px;
+}
+
+p {
+	font-size: 16px;
+	text-align: left;
+	font-style: italic;
+}
+
+
+
+
